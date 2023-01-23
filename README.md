@@ -45,10 +45,14 @@ conda install numpy pandas matplotlib tqdm
 ### 測定結果をCSVファイルへ出力
 1. 指定された名前、もしくは現在時刻のフォルダ内に繰り返し分と平均値のCSVファイルが保存されます。
 
-フォルダの生成
+**フォルダの生成(フォルダ名が指定されていない場合は現在時刻)**
+<br>
+
 ![folder](https://user-images.githubusercontent.com/76026039/214033563-0fb7fcae-f312-426a-92b5-dab1bfb0af95.png)
 
-フォルダ内のCSVファイル
+**フォルダ内のCSVファイル**
+<br>
+
 ![csvfiles](https://user-images.githubusercontent.com/76026039/214033370-e430f236-11a0-41bc-8743-cd7997a0b17c.png)
 
 # 使い方
