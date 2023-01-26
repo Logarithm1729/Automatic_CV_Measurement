@@ -19,14 +19,18 @@ min: -2.5V
 - numpy
 - matplotlib
 - tqdm
+- pyvisa
 
 **これらがインストールされていない場合は以下のコマンドを実行してください**
 ```zsh
-pip install numpy pandas matplotlib tqdm
+pip install numpy pandas matplotlib tqdm pyvisa
 
 # Anacondaを使用する場合
-conda install numpy pandas matplotlib tqdm
+conda install numpy pandas matplotlib tqdm pyvisa
 ```
+
+### CV測定器との通信について
+USBのCOMポートでの通信を採用した。COMポートとの通信のためPyVisaを使用している
 
 # 機能
 ### 測定機能
