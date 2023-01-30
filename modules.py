@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 from time import strftime
 import tqdm
 import os
-from typing import List, Tuple
+from typing import Tuple
 
 BASE_DIR = "/Users/極微太郎/Documents/CV測定プログラム"
 CSV_DIR = os.path.join(BASE_DIR, "results")
